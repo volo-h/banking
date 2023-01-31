@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/ashishjuyal/banking-lib/errs"
-	"github.com/ashishjuyal/banking/domain"
-	"github.com/ashishjuyal/banking/dto"
+	"banking.co/banking-lib/errs"
+	"banking.co/banking/domain"
+	"banking.co/banking/dto"
 	"time"
 )
 

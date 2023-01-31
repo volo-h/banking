@@ -2,8 +2,8 @@ package domain
 
 import (
 	"database/sql"
-	"github.com/ashishjuyal/banking-lib/errs"
-	"github.com/ashishjuyal/banking-lib/logger"
+	"banking.co/banking-lib/errs"
+	"banking.co/banking-lib/logger"
 	"github.com/jmoiron/sqlx"
 )
 
