@@ -2,7 +2,7 @@ package app
 
 import (
 	"encoding/json"
-	"github.com/ashishjuyal/banking/service"
+	"banking.co/banking/service"
 	"github.com/gorilla/mux"
 	"net/http"
 )

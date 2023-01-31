@@ -1,8 +1,8 @@
 package domain
 
 import (
-	"github.com/ashishjuyal/banking-lib/errs"
-	"github.com/ashishjuyal/banking-lib/logger"
+	"banking.co/banking-lib/errs"
+	"banking.co/banking-lib/logger"
 	"github.com/jmoiron/sqlx"
 	"strconv"
 )

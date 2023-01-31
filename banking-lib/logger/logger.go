@@ -16,7 +16,7 @@ func init() {
 	encoderConfig.TimeKey = "timestamp"
 	encoderConfig.EncodeTime = zapcore.ISO8601TimeEncoder
 	encoderConfig.StacktraceKey = ""
-	encoderConfig.MessageKey = "waw"
+	//encoderConfig.MessageKey = "some key"
 	config.EncoderConfig = encoderConfig
 
 	log, err = config.Build(zap.AddCallerSkip(1))

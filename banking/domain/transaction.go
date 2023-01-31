@@ -1,6 +1,6 @@
 package domain
 
-import "github.com/ashishjuyal/banking/dto"
+import "banking.co/banking/dto"
 
 const WITHDRAWAL = "withdrawal"
 

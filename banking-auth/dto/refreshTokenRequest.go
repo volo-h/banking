@@ -2,7 +2,7 @@ package dto
 
 import (
 	"errors"
-	"github.com/ashishjuyal/banking-auth/domain"
+	"banking.co/banking-auth/domain"
 	"github.com/dgrijalva/jwt-go"
 )
 

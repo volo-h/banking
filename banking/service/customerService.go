@@ -1,12 +1,12 @@
 package service
 
 import (
-	"github.com/ashishjuyal/banking/domain"
-	"github.com/ashishjuyal/banking/dto"
-	"github.com/ashishjuyal/banking-lib/errs"
+	"banking.co/banking/domain"
+	"banking.co/banking/dto"
+	"banking.co/banking-lib/errs"
 )
 
-//go:generate mockgen -destination=../mocks/service/mockCustomerService.go -package=service github.com/ashishjuyal/banking/service CustomerService
+//go:generate mockgen -destination=../mocks/service/mockCustomerService.go -package=service banking.co/service CustomerService
 type CustomerService interface {
 	GetAllCustomer(string) ([]dto.CustomerResponse, *errs.AppError)
 	GetCustomer(string) (*dto.CustomerResponse, *errs.AppError)

@@ -2,9 +2,9 @@ package app
 
 import (
 	"fmt"
-	"github.com/ashishjuyal/banking/domain"
-	"github.com/ashishjuyal/banking-lib/logger"
-	"github.com/ashishjuyal/banking/service"
+	"banking.co/banking/domain"
+	"banking.co/banking-lib/logger"
+	"banking.co/banking/service"
 	"github.com/gorilla/mux"
 	"github.com/jmoiron/sqlx"
 	"log"
@@ -31,8 +31,8 @@ func sanityCheck() {
 }
 
 func Start() {
-	log.Println("--- mimi starting")
-	logger.Info("xa")
+	//log.Println("---")
+	//logger.Info("some message")
 	sanityCheck()
 
 	router := mux.NewRouter()

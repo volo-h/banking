@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/ashishjuyal/banking-auth/app"
+	"banking.co/banking-auth/app"
 )
 
 func main() {
